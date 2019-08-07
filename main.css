@@ -1,0 +1,160 @@
+body {
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+    background-color: #333333;
+    box-sizing: border-box;
+}
+
+.showcase-nav {
+    margin-left: 47%;
+}
+
+.showcase-content--text {
+    font-size: 2rem;
+    margin: 0px;
+    margin-top: 5px;
+    text-align: center;
+    color: white;
+}
+
+.showcase-content--image {
+    width: 100%;
+    height: 80%;
+}
+
+.showcase-content {
+    margin: 20px;
+    margin-top: 50px;
+    width: 30%;
+    height: 300px;
+    background-color: rgb(189, 69, 22);
+}
+
+.showcase-images--container {
+    display: flex;
+    align-content: space-around;
+    padding: 0 50px 0 50px;
+}
+
+.showcase-section {
+    background-color: #ffffff;
+    width: 100%;
+    height: 500px;
+}
+
+.header-CTA--button {
+    padding: 1rem 2rem;
+    font-size: 1.5rem;
+    font-weight: 100;
+    color: rgb(255, 255, 255);
+    background-color: rgb(255, 25, 75);
+    border: none;
+    border-radius: 5px;
+}
+
+.header-CTA {
+    margin-left: 10rem;
+    margin-top: 10rem;
+}
+
+.header-text {
+    margin-left: 10rem;
+
+}
+
+.header-text--sub {
+    font-size: 1.5rem;
+    font-weight: lighter;
+    margin: 0px;
+
+}
+
+.header-text--main {
+    font-size: 3rem;
+    margin: 0px;
+    margin-bottom: 10px;
+}
+
+.header-section {
+    width: 100%;
+    height: 350px;
+    margin-top: 100px;
+}
+
+.header-section::before {
+    background-image: url("./images/header.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position-x: 22rem;
+    background-position-y: -8rem;
+    background-size: cover;
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.4;
+}
+
+.header-section::after {
+    background-color: rgb(241, 241, 241);
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: -2;
+
+}
+
+.nav {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0.4rem 0px;
+    background-color: rgb(255, 255, 255);
+    position: fixed;
+    top: 0;
+    width: 100%;
+
+}
+
+.nav-list {
+    float: right;
+}
+
+.nav-list--icon {
+    float: left;
+    position: relative;
+}
+
+.nav-item {
+    font-size: 1.25rem;
+    display: block;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 0.4rem 0.4rem;
+    margin: 0px 0.8rem;
+    text-decoration: none;
+}
+
+.nav-item:hover:not(.nav-item--active) {
+    color: rgb(206, 51, 23);
+}
+
+.nav-item--active {
+    border-bottom: 1px rgb(0, 0, 0) solid;
+    color: rgb(255, 115, 91);
+}
+
+.nav-icon {
+    width: 9.8rem;
+    position: absolute;
+    top: -30px;
+    left: 0;
+
+}
